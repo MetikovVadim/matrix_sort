@@ -17,6 +17,6 @@ Sort big matrix with Int's on python with minimal use of RAM
 ## Caveats
 
 As we trying to use as low RAM as possible we always use smallest potion of data. Text files we read by one byte. Disadvantage is wasting too much time on big files.
-Binary sort algorithm from Gvido van Rossum uses many temporary files. So on you may need to adjust OpenFiles limit, use
+Binary sort algorithm from Gvido van Rossum uses many temporary files. So you may need to adjust OpenFiles limit, use command 
 ```ulimit -n 262144```
 
